@@ -7,9 +7,9 @@ public class MoudleAndXianCheng : ModuleRules
 	public MoudleAndXianCheng(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-        PublicIncludePaths.AddRange(new string[] { "pluginDev/Public" });
-        PrivateIncludePaths.AddRange(new string[] { "pluginDev/Private" });
-        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" ,"pluginDev"});
+        //PublicIncludePaths.AddRange(new string[] { "pluginDev/Public" });
+        //PrivateIncludePaths.AddRange(new string[] { "pluginDev/Private" });
+        PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore"/*, "pluginDev"*/});
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });
 

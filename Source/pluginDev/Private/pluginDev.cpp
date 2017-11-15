@@ -6,12 +6,12 @@
 
 void FPluginDevModule::StartupModule()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, TEXT("StartModule"));
+	//GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, TEXT("StartModule"));
 	UE_LOG(LogTemp, Warning, TEXT("new  module has started!"));
 }
 
 void FPluginDevModule::ShutdownModule()
 {
-GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, TEXT("ShutModuel"));
+//GEngine->AddOnScreenDebugMessage(-1, 3.0f, FColor::Red, TEXT("ShutModuel"));
 }
-IMPLEMENT_MODULE(FPluginDevModule, "pluginDev");
+IMPLEMENT_MODULE(FPluginDevModule, pluginDev);

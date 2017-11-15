@@ -9,7 +9,7 @@ public class MoudleAndXianChengTarget : TargetRules
 	{
 		Type = TargetType.Game;
 
-		ExtraModuleNames.AddRange( new string[] { "MoudleAndXianCheng"} );
+		ExtraModuleNames.AddRange( new string[] { "MoudleAndXianCheng","pluginDev"} );
         //OutExtraModuleNames.AddRange(new string[] { "pluginDev" });
     }
 //    public override void SetupBinaries(

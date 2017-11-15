@@ -3,7 +3,7 @@
 	"EngineAssociation": "4.17",
 	"Category": "",
 	"Description": "",
-	"Modules": [
+  "Modules": [
     {
       "Name": "MoudleAndXianCheng",
       "Type": "Runtime",
@@ -11,7 +11,15 @@
       "AdditionalDependencies": [
         "Engine"
       ]
+    },
+    {
+      "Name": "pluginDev",
+      "Type": "Editor",
+      "LoadingPhase": "PostEngineInit",
+      "AdditionalDependencies": [
+        "CoreUObject"
+      ]
     }
-		
-	]
+
+  ]
 }
